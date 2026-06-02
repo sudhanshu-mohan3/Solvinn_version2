@@ -37,7 +37,7 @@ Go to **Tools → Manage Libraries** and install:
 | Library | Search for | By |
 |---------|-----------|-----|
 | U8g2 | `U8g2` | olikraus |
-| Q2HX711 | `Queuetue HX711` | bogde / Queuetue |
+| Q2HX711 | `Queuetue HX711` | bogde / Queuetue |  https://github.com/queuetue/Q2-HX711-Arduino-Library
 
 (WiFi, WebServer, DNSServer, Preferences come built in with the ESP32 core — nothing to install.)
 
