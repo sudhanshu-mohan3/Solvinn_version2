@@ -1,0 +1,4656 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c35ffec-6d5a-44d9-8a40-e8be6cb56c08")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Morphle:AO3400"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AO3400"
+				(at -11.4554 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "morphle_footprints:SOT-23"
+				(at 5.1308 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+				(at -42.0116 -16.1544 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+				(at 3.0988 -17.9832 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+				(at 3.9116 -20.6248 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+				(at 2.0828 -12.6492 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Morphle:JST-B2B-XH_Topentry"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "JST-B2B-XH_Topentry"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "morphle_footprints:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+				(at -10.6934 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+				(at 0.0254 -11.7348 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Morphle Part no." "3300043701"
+				(at 0 5.7404 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST-B2B-XH_Topentry_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Morphle:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -0.4572 1.9812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -13.3858 -9.8298 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" ""
+				(at -1.905 2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Morphle_Power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 73.66 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0094da6d-1de6-4b1a-b001-451ce3986f86")
+	)
+	(junction
+		(at 78.74 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12027c38-f4da-4c40-ad99-027bc64f9ffa")
+	)
+	(junction
+		(at 153.67 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b35003-bdfb-4faa-bf1d-b8ec730ec3b8")
+	)
+	(junction
+		(at 154.94 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c4f22ff-70ff-43e9-ada9-ac1e71cb461d")
+	)
+	(junction
+		(at 228.6 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cadfc36-89be-4889-a707-83805dd01b7d")
+	)
+	(junction
+		(at 154.94 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ed0c71-5731-4bda-bc92-c2bf0c92d739")
+	)
+	(junction
+		(at 231.14 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e7a22b-798f-405d-9b32-dcf83668430f")
+	)
+	(junction
+		(at 76.2 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b157387-9ead-40a3-932a-620e6ae25267")
+	)
+	(junction
+		(at 77.47 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94bc0cd6-4e6a-4c9a-9a18-1bae5c7e7443")
+	)
+	(junction
+		(at 151.13 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59ec392-05ff-459c-996f-31abaa6d264b")
+	)
+	(junction
+		(at 74.93 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeaf5144-4323-46a3-a0a1-69c4b32d8f6f")
+	)
+	(junction
+		(at 157.48 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4bb27d7-33f7-4ac4-a220-b826638a8ac1")
+	)
+	(junction
+		(at 76.2 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f054f33b-dec3-44ca-a6d7-8de6920783dc")
+	)
+	(junction
+		(at 152.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc94c18a-8c9c-46e1-86c5-abec28507222")
+	)
+	(wire
+		(pts
+			(xy 73.66 101.6) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055995d4-b830-4e4a-b27e-37bd9c9f511f")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 77.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064c92a3-5504-4fe1-a87d-b78743fa9926")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 165.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c367720-6933-4c24-8ea5-f807a1a6ab7d")
+	)
+	(wire
+		(pts
+			(xy 74.93 57.15) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9d35ff-d22d-4f5a-ae0e-d89a51184b06")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1259382d-5ae4-43ad-a9ab-ece7a4d30e64")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1259832b-bb18-4a04-a28b-77fe80449435")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.33) (xy 228.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12829ea2-44e4-449b-9da9-66f7f7d15c80")
+	)
+	(wire
+		(pts
+			(xy 153.67 49.53) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ecb74c-e5c2-423a-a79d-2952317ef970")
+	)
+	(wire
+		(pts
+			(xy 154.94 146.05) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bf6fc8-f733-4135-b92e-3cb4a2f8e55a")
+	)
+	(wire
+		(pts
+			(xy 68.58 154.94) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7a5963-df19-4fd5-bbf6-9339680ad23a")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fefc58-8e10-4b1e-96bb-6aec0086201e")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 76.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290de0bb-539a-4db6-b163-a99a0686bece")
+	)
+	(wire
+		(pts
+			(xy 163.83 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e92a5fd-388e-4512-b70d-8f19b2c931e9")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a3cb2e-d216-4765-b90a-fa16c6fcc056")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d8b3e-11c1-4d2e-9ec3-1b4ec1946c09")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 223.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38697512-b2bf-4dc4-aff3-7ce7f76c9403")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e07465b-d731-4720-85b7-b22e8d6ee489")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fcdfe8-8080-4d54-90a9-98faa3a02727")
+	)
+	(wire
+		(pts
+			(xy 76.2 147.32) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c487f6-35f8-4cc0-8bde-69950278c8b3")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c23e9e9-b39e-4438-92ba-81db8d162d2b")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6110a0-99f9-4c81-b018-0db4d92f3853")
+	)
+	(wire
+		(pts
+			(xy 231.14 92.71) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63689a3c-d351-4543-b2c1-683910eb0323")
+	)
+	(wire
+		(pts
+			(xy 154.94 144.78) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b5ec38-fc9a-4f59-920f-314fd95f3bd5")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d0e644-bf18-4ec6-97e6-a44a3d9444b4")
+	)
+	(wire
+		(pts
+			(xy 86.36 50.8) (xy 77.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efa80ec-263f-4fd5-8fa3-8db013c5f7c6")
+	)
+	(wire
+		(pts
+			(xy 144.78 107.95) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743b62f0-f281-4bc7-ac4b-266e8f6eb403")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f6eb63-25ac-4b64-863d-6a88b5da14ad")
+	)
+	(wire
+		(pts
+			(xy 87.63 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7918f807-c9d2-4695-a391-339dfade27b4")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad26173-6921-40e8-b515-8b90cec5b7d2")
+	)
+	(wire
+		(pts
+			(xy 157.48 137.16) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fe549b-e09d-4e04-9a41-c6a935b32c34")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8142e7b3-5f2b-4155-a168-c53caea9585d")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878616ca-e087-4770-ad4d-e835ba356d32")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890db268-3599-46bc-994f-df10f6c0ca9d")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d61cc37-5409-4390-853d-a40cde3afc89")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a6941a-c6f7-4cd5-a212-7a59d8270c50")
+	)
+	(wire
+		(pts
+			(xy 152.4 100.33) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94db9aec-4f29-466e-a5ec-95c669a9ee19")
+	)
+	(wire
+		(pts
+			(xy 240.03 93.98) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3e5bbe-1dba-4e3c-86c2-4f2d34c42b1e")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d31505-020a-4377-910d-324bb1929e6c")
+	)
+	(wire
+		(pts
+			(xy 238.76 96.52) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32b2ab6-23de-4c25-9639-a9710afed1a5")
+	)
+	(wire
+		(pts
+			(xy 231.14 93.98) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e9c09f-5c62-4eb5-a72c-39f1df987a53")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 149.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c63595-ac12-4b12-b230-331d512335a9")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8627954-4044-422c-b475-e1b17e5fecaf")
+	)
+	(wire
+		(pts
+			(xy 74.93 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea00bb9-f83f-4d6f-ab73-43be9d866125")
+	)
+	(wire
+		(pts
+			(xy 78.74 139.7) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f5573a-46c2-4859-af54-3a300419d47f")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b455b2-af90-4db5-9a9f-3b5bd94ecce5")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22939fe-0c27-4fdd-a036-94bce5d25583")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04c8341-1449-49c5-843b-50961852ec1d")
+	)
+	(wire
+		(pts
+			(xy 83.82 96.52) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ac9bf3-eeaa-4e17-9f4f-43bd1601aba6")
+	)
+	(wire
+		(pts
+			(xy 162.56 49.53) (xy 153.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea29fa3a-7fc2-4391-bf1a-c34eb6a61ff4")
+	)
+	(wire
+		(pts
+			(xy 86.36 142.24) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee31a256-9325-46b4-82bf-e11ac471e093")
+	)
+	(wire
+		(pts
+			(xy 154.94 144.78) (xy 165.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef6b51f-f3b0-45af-8b08-8c53e109013d")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e15ed9-fdc5-4f13-9cda-2a2c5c96a986")
+	)
+	(wire
+		(pts
+			(xy 74.93 58.42) (xy 74.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45ca123-8b4d-4246-8c9a-6f7af4beca58")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a6b4c3-b71e-4fce-b41c-27e7c06cf62e")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfc7475-fa41-4e15-8de9-26a118421252")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.33) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb399e4-a282-49a2-8436-f6e39598f6dc")
+	)
+	(hierarchical_label "Valve3"
+		(shape input)
+		(at 58.42 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e236241-86a9-491b-94c1-784ea95877c6")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 85.09 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42c24d7e-1aad-48cd-ba63-68a7ac8b6f62")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 166.37 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c22ea8d-6125-4edd-b132-819b0e2f0538")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 240.03 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e100358-23e1-4177-a1fd-ccd4b94473c9")
+	)
+	(hierarchical_label "Valve2"
+		(shape input)
+		(at 55.88 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6254f8df-3621-4670-a350-65c2506d1354")
+	)
+	(hierarchical_label "Valve6"
+		(shape input)
+		(at 137.16 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dd05071-35f3-4532-8da6-9ba689048105")
+	)
+	(hierarchical_label "Pump_motor"
+		(shape input)
+		(at 210.82 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84a08fa8-7002-429d-9466-9db55c7ab4d3")
+	)
+	(hierarchical_label "Valve4"
+		(shape input)
+		(at 133.35 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dd5fc2e-430a-4a98-87ad-828397bb46b8")
+	)
+	(hierarchical_label "Valve1"
+		(shape input)
+		(at 57.15 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90ac2355-53fb-4b9a-9c97-a053d4b0edd9")
+	)
+	(hierarchical_label "Valve5"
+		(shape input)
+		(at 134.62 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "910fdd08-52b5-4836-b3d2-ae6d53380396")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 87.63 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa36fe69-43f3-4a51-aacd-95dbf7055128")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 163.83 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd2d740b-ff74-4fd1-b718-e83e4687c40e")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 86.36 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0ea19b3-26cf-4214-a461-617206773062")
+	)
+	(hierarchical_label "Power_input"
+		(shape input)
+		(at 162.56 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0bfefe-f42c-483e-bd2d-ca48d7c3395f")
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 157.48 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ebc77d6-5848-47bc-a5a0-7e318e671834")
+		(property "Reference" "D9"
+			(at 157.7975 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 157.7975 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 157.48 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89add89d-2292-4136-a750-6353c9050467")
+		)
+		(pin "1"
+			(uuid "c16b8d5c-086a-4dfc-a359-c3ec771c84e0")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 63.5 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3cbdcf-bee8-4c2e-a2a1-43395c862d55")
+		(property "Reference" "R25"
+			(at 63.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 59.69 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 50.1142 164.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 61.595 152.527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "778f689d-9fc8-4c49-a71a-a7b49c5adeeb")
+		)
+		(pin "1"
+			(uuid "b5435acb-c5bc-40da-b785-008c34fdf0ab")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 152.4 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2147a600-2678-4615-ade4-7e92c8127f2e")
+		(property "Reference" "J10"
+			(at 158.75 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 158.75 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 162.814 91.9734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 164.1348 81.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 146.6596 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6baa537b-9889-4a0e-b249-2ca9b86781c8")
+		)
+		(pin "1"
+			(uuid "73950653-f50d-4d6b-b601-0662d9459a83")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 139.7 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265ff0a0-dd86-463f-b4c3-05b95ac74637")
+		(property "Reference" "R27"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 135.89 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 126.3142 117.7798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 137.795 105.537 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7f6f6b2-909f-40fa-bc7c-e96f43efab4f")
+		)
+		(pin "1"
+			(uuid "ea75aff8-07d1-435f-8c79-f040daba7bbe")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 234.95 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26e67fe6-d5fe-447d-b48a-c87e9f350fc2")
+		(property "Reference" "D12"
+			(at 235.2675 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 235.2675 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 234.95 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ce0f4a4-b38f-4ccc-9641-ecf340f1a332")
+		)
+		(pin "1"
+			(uuid "6e08aa39-7ce7-40fd-94e9-a5c461081bc0")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 73.66 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e56b133-6152-4084-94c5-0423b72b912f")
+		(property "Reference" "#PWR051"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ef16b24-4961-4a6d-bad2-30cf06e71210")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 72.39 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f169f19-7983-4dad-8cc2-b86ef82458ae")
+		(property "Reference" "U6"
+			(at 78.74 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 78.74 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 77.5208 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 30.3784 79.6544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 75.4888 81.4832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 76.3016 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 74.4728 76.1492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a56f5b2-cddf-4af5-82cd-5b748a4bcc56")
+		)
+		(pin "3"
+			(uuid "0debc2f3-da4c-4712-8c62-a18ba61bcdc8")
+		)
+		(pin "2"
+			(uuid "ef1b136d-2417-4b73-b9e1-9f9d303d6194")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 149.86 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324e2a3a-2492-4afa-b85f-2bbdd0e142ba")
+		(property "Reference" "U9"
+			(at 156.21 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 156.21 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 154.9908 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 107.8484 121.5644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 152.9588 123.3932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 153.7716 126.0348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 151.9428 118.0592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f99e63c-e633-4351-ba81-9d70fbbf17d0")
+		)
+		(pin "3"
+			(uuid "efc51e08-ec98-4126-aaf2-8ab29dea3654")
+		)
+		(pin "2"
+			(uuid "f3310f41-9d1c-4f14-bf39-ca7ebdfdbfb1")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 71.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36722f9c-8215-48c0-877b-885dd60a54fa")
+		(property "Reference" "U5"
+			(at 77.47 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 77.47 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 76.2508 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 29.1084 122.8344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 74.2188 124.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 75.0316 127.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 73.2028 119.3292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ad8c9de-0b12-41e2-896e-187f8e62c237")
+		)
+		(pin "3"
+			(uuid "ac849673-930f-42e0-b71e-b8ec6c2e574f")
+		)
+		(pin "2"
+			(uuid "fb0cd727-18c3-4283-9bca-f5977626c151")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 80.01 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37629a36-91b5-44f5-8d33-7121af8811f9")
+		(property "Reference" "D6"
+			(at 80.3275 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 80.3275 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 80.01 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b382d91-7cd3-40a0-91ef-f194dac48e53")
+		)
+		(pin "1"
+			(uuid "809de316-8c39-4da2-8706-5f546aeb52fa")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 151.13 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b9bc0da-426f-472d-bf12-e58465543491")
+		(property "Reference" "#PWR054"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff282c4-fa96-4989-82f1-0cb5faf392f4")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 151.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce2a622-f102-4bf9-9878-c5cb74585282")
+		(property "Reference" "J9"
+			(at 157.48 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 157.48 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 161.544 48.7934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 162.8648 38.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 145.3896 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47d60cc5-2e59-4909-8059-0a28c1e6ab67")
+		)
+		(pin "1"
+			(uuid "32b4249d-a04f-47d7-bf23-990b22c28650")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 228.6 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63798501-862f-4045-95ce-b364d00dd7e4")
+		(property "Reference" "J12"
+			(at 234.95 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 234.95 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 239.014 93.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 240.3348 82.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 222.8596 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45a2821e-4c30-4aa0-b614-2926fdc0cc97")
+		)
+		(pin "1"
+			(uuid "260591fd-a950-4989-b7ec-dcc4d3c1e755")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 228.6 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65e9bd2c-8631-4fac-b09f-218c584919f2")
+		(property "Reference" "#PWR057"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb8b1b8-86bb-42bc-8931-141aa2db2b42")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 215.9 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "721b6103-ff0a-45f9-8fff-6824e4f31112")
+		(property "Reference" "R29"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 212.09 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 202.5142 119.0498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 213.995 106.807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e43f4f49-019c-4da8-863f-c9095c92ecfc")
+		)
+		(pin "1"
+			(uuid "e69b88be-1aef-4ea8-bf1b-434091e44e48")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 138.43 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b016b9d-b278-426c-94b7-51e224f12338")
+		(property "Reference" "R26"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 134.62 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 125.0442 74.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 136.525 62.357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31452512-f092-4e6a-b8ca-2055c401ec91")
+		)
+		(pin "1"
+			(uuid "d5d912bb-77d9-4164-b83c-ce298739476b")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 81.28 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81176796-4e52-4f51-8a29-57076588e95c")
+		(property "Reference" "D7"
+			(at 81.5975 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 81.5975 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 81.28 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57413d6b-b864-4f8a-bb1e-b2fb29092010")
+		)
+		(pin "1"
+			(uuid "a7863a31-5d0d-49c5-90d3-5a84e10f335a")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 82.55 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8907fa7b-1b55-4ecc-8c97-451f48d53054")
+		(property "Reference" "D8"
+			(at 82.8675 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 82.8675 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 82.55 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 82.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3974a24-546f-4791-a2db-12520da609ab")
+		)
+		(pin "1"
+			(uuid "b42bdac4-c76b-4cc0-a722-cf19f0fb0911")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 152.4 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be5dd30-fb25-4f58-aaa0-d5b8736cf957")
+		(property "Reference" "U10"
+			(at 158.75 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 158.75 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 157.5308 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 110.3884 167.2844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 152.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 155.4988 169.1132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 156.3116 171.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 154.4828 163.7792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9d8700-45c2-4a14-9e6a-d591f4afb697")
+		)
+		(pin "3"
+			(uuid "a814af38-e69a-4156-be69-540e4474154c")
+		)
+		(pin "2"
+			(uuid "5e7cd37a-7d99-4fbe-bf1c-71e17ce9f4e3")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 62.23 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebc8b72-e989-46d8-a13d-ed15624fb30d")
+		(property "Reference" "R24"
+			(at 62.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 58.42 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 48.8442 75.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 60.325 63.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a89beda-d3a3-408e-8a79-33009793d40c")
+		)
+		(pin "1"
+			(uuid "4c45d5fd-1d71-4af2-a5a1-7625610d0e28")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 74.93 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ab906e-f21a-4db0-8260-edca1d129310")
+		(property "Reference" "#PWR052"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad2bc05-e2fb-4567-9ca0-8b4eb36e91d5")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 73.66 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981d30d6-ae3e-4b18-aaa2-e8bb1653a4cd")
+		(property "Reference" "U7"
+			(at 80.01 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 80.01 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 78.7908 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 31.6484 168.5544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 76.7588 170.3832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 77.5716 173.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 75.7428 165.0492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1201fc-bd56-407e-9efb-b4413115ad53")
+		)
+		(pin "3"
+			(uuid "67dff315-b6a0-48a8-812d-a9956d304e4b")
+		)
+		(pin "2"
+			(uuid "47f97e52-6b00-4946-8fa0-e70b8439767b")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 154.94 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3eafc09-c8b8-47f1-b6e9-950ee2735f5b")
+		(property "Reference" "#PWR056"
+			(at 154.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "513fb0e1-17ad-4260-bf4b-78e8b21a0cd2")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 152.4 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b993d886-b0dc-4d4c-b0f2-84a596a2cc4a")
+		(property "Reference" "#PWR055"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51d7b33a-0a1d-478b-a6e3-ad048153c621")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 142.24 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd7a336f-7fef-4d93-8161-4a61bd19500a")
+		(property "Reference" "R28"
+			(at 142.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 138.43 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 128.8542 163.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 140.335 151.257 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "109a2145-d3fd-4b06-8ce8-8d3675b74c4a")
+		)
+		(pin "1"
+			(uuid "db9f0e0a-f8f2-4c6a-920e-ffe850149cc3")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 158.75 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d5c1ed-5b95-4587-92be-d104d3c07b67")
+		(property "Reference" "D10"
+			(at 159.0675 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 159.0675 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 158.75 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3554ed39-b44f-471c-a2d8-67a359db98d7")
+		)
+		(pin "1"
+			(uuid "176a1cb8-346b-433c-bc53-b548ef952481")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 74.93 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46d48bb-33d8-45bd-ad70-d6b05f28fb84")
+		(property "Reference" "J7"
+			(at 81.28 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 81.28 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 85.344 50.0634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 86.6648 39.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 69.1896 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1efeeaab-3b9a-4e77-9f95-9f5ae4d4622e")
+		)
+		(pin "1"
+			(uuid "96d12531-0d24-4cc2-9caf-16a4a3cafcce")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 226.06 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce384512-4ce3-4f1f-a6a8-d851e18c9c31")
+		(property "Reference" "U11"
+			(at 232.41 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 232.41 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 231.1908 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 184.0484 122.8344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 229.1588 124.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 229.9716 127.3048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 228.1428 119.3292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e008f12-6add-43f3-8289-96d57d6afd62")
+		)
+		(pin "3"
+			(uuid "a4b99156-84c6-469a-93bc-7c768f57b849")
+		)
+		(pin "2"
+			(uuid "2dcdc294-efed-472e-b1f1-6931f1eb7baf")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 161.29 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d023c9be-af7e-4750-b74a-c3d86728bba5")
+		(property "Reference" "D11"
+			(at 161.6075 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 161.6075 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 161.29 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec1dcdf4-1982-4506-924a-0bcf79e72cbe")
+		)
+		(pin "1"
+			(uuid "37d40df7-058b-49a0-9e5d-7c4422c917a9")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 76.2 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d90603ed-d6a9-439e-b5a1-38e08c972547")
+		(property "Reference" "J8"
+			(at 82.55 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 82.55 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 86.614 138.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 87.9348 128.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 70.4596 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "259762f4-3098-4947-acc9-6e2276cef4eb")
+		)
+		(pin "1"
+			(uuid "f598a356-80d2-4062-b7a7-e0414ca76c67")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:AO3400")
+		(at 148.59 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9c9d7df-20fa-4400-90b0-fa40d8b46180")
+		(property "Reference" "U8"
+			(at 154.94 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400"
+			(at 154.94 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Morphle:SOT-23"
+			(at 153.7208 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"
+			(at 106.5784 78.3844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "IRLML6344TRPBF/AO3400/PMV20ENR"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing 1" "https://www.mouser.in/ProductDetail/Infineon-Technologies/IRLML6344TRPBF?qs=9%252BKlkBgLFf2w4qS48UOXVw%3D%3D"
+			(at 151.6888 80.2132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 2" "https://www.digikey.in/en/products/detail/infineon-technologies/IRLML6344TRPBF/2538152?s=N4IgTCBcDaIAQEkBKAZAsigbAZgCy4BUkAFAIQDEQBdAXyA"
+			(at 152.5016 82.8548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Souricng 3" "https://www.digikey.in/en/products/detail/nexperia-usa-inc/PMV20ENR/5395792"
+			(at 150.6728 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c148ca46-aedb-40d8-b0d8-a929983245e0")
+		)
+		(pin "3"
+			(uuid "d0a5312c-b699-4ed8-8400-135d632a0b96")
+		)
+		(pin "2"
+			(uuid "80f02de9-4c2d-48be-93e4-a15f92686847")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 73.66 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52d8660-3821-4695-98cc-02b234726d82")
+		(property "Reference" "J6"
+			(at 80.01 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 80.01 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 84.074 93.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 85.3948 82.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 67.9196 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c2ba028-8732-4f7c-86a1-989dab1bd53b")
+		)
+		(pin "1"
+			(uuid "bf974158-7317-49f7-8120-83f815f08e0a")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle_Power:GND")
+		(at 76.2 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe80563-8716-4ead-89b7-cc72e3754b72")
+		(property "Reference" "#PWR053"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261ef81b-4da2-4882-9ab5-f30c0e2b9ebe")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:R")
+		(at 60.96 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2f5758b-ea99-4149-b6b6-ddd872c78dea")
+		(property "Reference" "R23"
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 57.15 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Morphle:R_0603_1608Metric"
+			(at 47.5742 119.0498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 59.055 106.807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8be980bf-1de5-43d2-92a6-41638174d05d")
+		)
+		(pin "1"
+			(uuid "f3ed004d-1852-4795-b8c2-d77c3e07b581")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Morphle:JST-B2B-XH_Topentry")
+		(at 154.94 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8e79b69-f2dc-4a0d-a934-c2ae116a128c")
+		(property "Reference" "J11"
+			(at 161.29 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST-B2B-XH_Topentry"
+			(at 161.29 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Morphle:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 165.354 137.6934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing" "https://www.sunrom.com/p/2-pin-jst-xh-25mm-top-entry-header"
+			(at 166.6748 126.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Morphle Part no." "3300043701"
+			(at 149.1996 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3241e821-0c67-49f8-8c43-ffa649bd5ea2")
+		)
+		(pin "1"
+			(uuid "e34b5a1b-c99b-498a-b0f1-1989c4da6ae0")
+		)
+		(instances
+			(project "Solventech_Controller"
+				(path "/1a374f6c-8d34-43d8-9f31-c65e2237eddf/4d4900da-3fe8-4764-a6f8-bf50a922dbd6"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
